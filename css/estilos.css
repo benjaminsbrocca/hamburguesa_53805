@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800&display=swap');
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+
+h1 {
+    color: #ffffff;
+
+}
+
+.HEADER {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: rgb(250, 231, 64);
+    color: rgb(245, 242, 102);
+    align-items: center;
+    .padrelogo{ 
+        width: 700px;
+        margin-left: 100px;
+        margin-top: 12px;
+        margin-bottom: 0px;
+
+
+    }
+        .logo {
+            display: flex;
+            
+            
+            width: 250px;
+        }}
+.listaNav {
+    display: flex;
+    text-align: center;
+    .listaitem {
+        display: flex;
+        margin-right: 40px;
+    }
+    list-style: none;
+}
+.listaNav .linkNav {
+    text-decoration: none;
+    color: rgb(133, 7, 7);
+    font-size: 15px;
+    margin-top: 30px;
+    
+}
+.secciontitulo {
+    font-size: 2.0rem;
+    
+    padding-top: 120px;
+    padding-left: 130px;
+    background-image: url(../assets/img/front-view-tasty-meat-burger-with-cheese-salad-dark-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    .titulo {
+        font-size: 5rem;
+        font-weight: 600;
+        color: rgb(228, 190, 22);
+    }
+    .slogan {
+        color: rgb(255, 255, 255);
+    }
+    .linkencontra { color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: rgba(137, 43, 226, 0);
+    width: 230px;
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;}
+    
+}
+.seccionservicio {
+    .servicio {
+        font-size: 0,5rem;
+        font-weight: 400;
+    }
+}
+.logote {
+    .logo {
+         width: 100px;
+    }
+}
