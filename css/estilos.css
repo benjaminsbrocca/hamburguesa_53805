@@ -1,85 +1,207 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800&display=swap');
-*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif;}
+*{ margin: 0; padding: 0; font-family: 'Montserrat', sans-serif;}
 
-h1 {
-    color: #ffffff;
-
+.contenedor { 
+    background-color: black;
+    .logi { padding-left: 30px;}
 }
 
-.HEADER {
-    position: sticky;
-    top: 0;
-    display: flex;
-    background-color: rgb(250, 231, 64);
-    color: rgb(245, 242, 102);
-    align-items: center;
-    .padrelogo{ 
-        width: 700px;
-        margin-left: 100px;
-        margin-top: 12px;
-        margin-bottom: 0px;
 
-
-    }
-        .logo {
-            display: flex;
-            
-            
-            width: 250px;
-        }}
-.listaNav {
-    display: flex;
-    text-align: center;
-    .listaitem {
-        display: flex;
-        margin-right: 40px;
-    }
-    list-style: none;
-}
-.listaNav .linkNav {
-    text-decoration: none;
-    color: rgb(133, 7, 7);
-    font-size: 15px;
-    margin-top: 30px;
-    
-}
-.secciontitulo {
-    font-size: 2.0rem;
-    
-    padding-top: 120px;
-    padding-left: 130px;
-    background-image: url(../assets/img/front-view-tasty-meat-burger-with-cheese-salad-dark-background.jpg);
+.imgfondo{ 
+    background-image: url(../assets/img/hamburguesita.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-attachment: fixed;
-    height: 100vh;
-    .titulo {
-        font-size: 5rem;
-        font-weight: 600;
-        color: rgb(228, 190, 22);
+    height: 87vh;
+    padding-left: 90px;
+    padding-top: 115px;
+        .titulo {
+            font-size: 4.5rem;
+            font-weight: 530;
+            color: rgb(8, 126, 24);
+        }
+        .subtitulo {
+            font-size: 1.7rem;
+        }
+        .btn-secondary{
+            color: rgb(255, 255, 255);
+            background-color: rgba(0, 0, 0, 0);
+            border-color: rgb(255, 255, 255);
+            width: 200px;
+            font-size: 1.7rem;
+            margin-left: 170px ;
+            &:hover {
+                color: rgb(41, 39, 39);
+                background-color: rgba(206, 202, 202, 0.411);
+                border-color: rgb(41, 39, 39);
+        
+            }
+            
+        }  
+}
+
+
+
+.servicio .linea {
+    color: rgb(97, 92, 92);
+    width: 140px;
+    margin-left: 500px;
+    height: 2px;
+    opacity: 3;
+}
+
+.fondocolor { background-color: rgb(20, 75, 20);
+    .fuente2 {
+        font-weight: 525;
+        color: rgb(219, 211, 199);
+    }}
+
+
+
+.contenedorf {background-color: black;
+    .titulocontact {padding-right: 120px;}
+    .colorlinks {color:rgb(102, 102, 102);
+        &:hover{ color: rgb(206, 198, 198);}}
+        .fa-instagram {font-size: 38px; color: rgb(109, 116, 99); margin: 10px;
+            &:hover{ color: rgb(206, 198, 198);}}
+        .fa-facebook {font-size: 38px; color: rgb(109, 116, 99); margin: 10px;
+            &:hover{ color: rgb(206, 198, 198);}}
+        .fa-whatsapp {font-size: 38px; color: rgb(109, 116, 99); margin: 10px;
+            &:hover{ color: rgb(206, 198, 198);}}
+         }
+
+
+@media screen and (max-width: 768px){
+    .logofo {
+        padding-left: 135px;
+        padding-bottom: 20px;
     }
-    .slogan {
-        color: rgb(255, 255, 255);
-    }
-    .linkencontra { color: rgb(255, 255, 255);
-    display: inline-block;
-    background-color: rgba(137, 43, 226, 0);
-    width: 230px;
-    text-decoration: none;
-    border: 2px solid rgb(255, 255, 255);
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;}
+    .titulocontact{
+        padding-left: 115px ;
+        padding-top: 15px;}
+    .links {padding-left: 75px; }}
+
+.achere { margin: 0%;} 
+.copyright{ background-color: black; font-size: small;}
+
+
+
+
+
+ .fondocontacto {background-color: rgb(10, 44, 6); padding-top: 30px; padding-bottom: 30px;
+    .formulario {background-color: rgb(255, 255, 255); padding: 50px;
+        .lineacontacto {opacity: 3;}
+        .botonenviar {
+            color: rgb(0, 0, 0);
+            background-color: rgba(250, 235, 215, 0);
+            border-color: rgb(41, 88, 43);
+            width: 200px;
+            &:hover { color: rgb(255, 255, 255); background-color: rgb(23, 114, 46); border-color: rgb(21, 71, 33) ;}
+            }}}
+ 
+
+
+
+
+
+
+
+.historia { 
+        background-image: url(../assets/img/17491.jpg);
+        height: 150vh;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 150px;
+        padding-left: 500px;
+        .contenedorhistoria { 
+            height: 600px;
+            width: 500px;
+            background-color: rgb(214, 214, 214);
+              .titulohistoria { color: rgb(14, 107, 26);}
+              .fuentehistoria { font-size: small;}}}
+
+.fondocolor2 {background-color: black;
+        .fuente4 {font-weight: 600;}
+        .fuente3 {font-size: small;}}
     
-}
-.seccionservicio {
-    .servicio {
-        font-size: 0,5rem;
-        font-weight: 400;
-    }
-}
-.logote {
-    .logo {
-         width: 100px;
-    }
-}
+
+
+
+
+    .contenedorencontranos {
+        background-image: url(../assets/img/banner.jpg);
+        background-position: center bottom;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 88vh;
+        color: rgb(39, 39, 39);
+         .textoencontranos {padding-top: 150px;}
+         .textocolores {color: rgb(255, 255, 255); font-weight: 600; width: 330px;}
+        }
+        
+    
+    
+
+
+
+    .fondogaleria {background-color: rgb(61, 59, 59);
+        .grilla {
+            background-color: rgb(61, 59, 59);
+            width: 90%;
+            margin: 0% auto;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 300px 300px 300px 300px 300px 300px 300px;
+            grid-template-areas: "grilla1 grilla2 grilla3"
+                                 "grilla4 grilla2 grilla3"
+                                 "grilla5 grilla6 grilla6"
+                                 "grilla5 grilla7 grilla7"
+                                 "grilla8 grilla9 grilla9"
+                                 "grilla10 grilla10 grilla10"
+                                 "grilla10 grilla10 grilla10";
+            gap: 20px;
+            .grilla1{ 
+                grid-area: grilla1;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla2 {
+                grid-area: grilla4;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla3 {
+                grid-area: grilla2;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla4 {
+                grid-area: grilla3;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla5 {
+                grid-area: grilla5;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla6 {
+                grid-area: grilla6;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla7 {
+                grid-area: grilla7;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla8 {
+                grid-area: grilla8;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla9 {
+                grid-area: grilla9;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }
+            .grilla10 {
+                grid-area: grilla10;
+                img { width: 100%; height: 100%; object-fit: cover;}
+            }}}
+               
+    

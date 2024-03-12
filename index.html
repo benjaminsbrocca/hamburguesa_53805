@@ -6,71 +6,121 @@
         <title>Hamburguesa - Inicio</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <script src="https://kit.fontawesome.com/ca18de4716.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/estilos.css">
     </head>
     <body>
-        <header class="HEADER">
-            <a href="#" class="padrelogo">
-                <img class="logo" src="./assets/img/logot.png" width="200px" alt="" loading="lazy">
-            </a>
-        
-            <nav>
-                <ul class="listaNav">
-                    <li class="listaitem"><a class="linkNav" href="#">Inicio</a></li>
-                    <li class="listaitem"><a class="linkNav" href="./pages/galeria.html">Galeria</a></li>
-                    <li class="listaitem"><a class="linkNav" href="./pages/historia.html">Historia</a></li>
-                    <li class="listaitem"><a class="linkNav" href="./pages/contacto.html">Contacto</a></li>
-                    <li class="listaitem"><a class="linkNav" href="./pages/encontranos.html">Encontranos</a></li>
-                </ul>
-            </nav>
+        <header>
+            <nav class="navbar navbar-expand-lg contenedor navbar-dark" >
+                <div class="container-fluid">
+                  <a class="navbar-brand logi" href="#">
+                    <img src="./assets/img/loogoo.png" width="50px" alt="logo" loading="lazy">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/galeria.html">Galeria</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/historia.html">Historia</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/encontranos.html">Encontranos</a></li>
+                        </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
+           
         <main>
-            <section class="secciontitulo">
-                <h1 class="titulo"> <span class="fuente">Hamburguesa</span></h1>
-                <p class="slogan">Sabor auténtico, experiencia inigualable.</p>
-                <a class="linkencontra" href="#footer">Encontranos</a>
+            <section class="imgfondo text-white d-flex flex-column">
+                <h1 class="titulo"><span>Hamburguesa</span></h1>
+                <p class="subtitulo">Sabor auténtico, experiencia inigualable.</p>
+                <a class="btn btn-secondary" href="#footer">Encontranos</a>
             </section>
-            <section class="seccionservicio">
-                <h2 class="servicio">Servicios</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitfrmkfmormformeoifmirofimrdom</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitfrmkfmormformeoifmirofimrdom</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitfrmkfmormformeoifmirofimrdom</p>
+            <section class="container mt-5 text-center servicio">
+                <h2 class="fs-1 fw-bold">¿Qué ofrece?</h2>
+                <hr class="linea">
+                <div class="d-flex mt-5 mb-5 gap-5">
+                    <div class="flex-column">
+                        <h3 class="fs-5 fw-bold">Versatilidad Deliciosa</h3>
+                        <p class="container">La hamburguesa se distingue por su capacidad de adaptarse a diferentes gustos y preferencias, ofreciendo combinaciones clásicas y gourmet que satisfacen diversos paladares.</p>
+                    </div>
+                    <div class="flex-column">
+                        <h3 class="fs-5 fw-bold">Experiencia Sensorial</h3>
+                        <p class="container">La mezcla perfecta de carne jugosa, queso derretido y frescos acompañamientos crea una experiencia culinaria única, estimulando el paladar con un equilibrio armonioso de sabores y texturas.</p>
+                    </div>
+                    <div class="flex-column">
+                        <h3 class="fs-5 fw-bold">Conveniencia y Compartir</h3>
+                        <p class="container">Además de ser una opción deliciosa, la hamburguesa es conveniente y propicia momentos sociales, siendo ideal para disfrutar en cualquier lugar y compartir con amigos y familiares alrededor de una comida sabrosa.</p>
+                    </div>
+                </div>
             </section>
-            <section>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/4hpb5zHlu6A?si=dy5XNzMfb62N7i9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <section class="d-flex p-5 justify-content-center align-items-center fondocolor gap-5 text-white border border-dark">
+                <div class="flex-column col-12 col-md-6">
+                    <h2 class="fw-bold text-white">La Hamburguesa Perfecta en Casa</h2>
+                    <p class="fuente2">El video comienza con la presentación artística de ingredientes frescos y apetitosos dispuestos. El chef sazona un jugoso filete de carne de res y lo coloca en la parrilla, mientras destaca la importancia de la cocción perfecta. Se intercalan imágenes rápidas de la preparación de condimentos y acompañamientos frescos.</p>
+                    <p class="fuente2">Con un montaje ágil, se muestra la construcción de la hamburguesa: el filete jugoso se coloca sobre un pan suave, se agrega queso derretido y se complementa con vegetales frescos. El chef finaliza la presentación con una hamburguesa perfectamente apilada, resaltando cada capa con entusiasmo. La cámara cierra con un primer plano tentador de la hamburguesa lista para ser disfrutada.</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/eA6PJxralB4?si=cpLCmMkWeEEd9yp9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </section>
         </main>
         <footer id="footer">
-            <a class="logote" href="#">
-                <img class="logo" src="./assets/img/hamburguesa.png" width="200px" alt="" loading="lazy">
-            </a>
-            <nav id="Contenido">
-                <h4>Contenidos</h4>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="./pages/galeria.html">Galería</a></li>
-                    <li><a href="./pages/historia.html">Historia</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                    <li><a href="./pages/encontranos.html">Encontranos</a></li>
-                </ul>
-            </nav>
-            <section>
-                <h4>Sede social</h4>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13619.734975910469!2d-64.1838244!3d-31.4159515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28330a6bbeb%3A0x3b5b6ef9313ffedb!2sAtenci%C3%B3n%20Socios%20Talleres%20%E2%80%A2%20Sede%20Social!5e0!3m2!1ses-419!2sar!4v1707094158074!5m2!1ses-419!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <section class="container-fluid contenedorf">
+                <div class="row p-5 justify-content-center">
+                    <div class="col-12 logofo col-md-3">
+                        <a href="#">
+                            <img src="./assets/img/loogoo.png" width="70px" alt="logoft" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h4 class="text-white">Contenidos</h4>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="#"> Inicio</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="./pages/galeria.html"> Galería</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="./pages/historia.html"> Historia</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="./pages/contacto.html"> Contácto</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="./pages/encontranos.html"> Encontranos</a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h4 class="text-white">Ayuda</h4>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="./pages/404.html"> Términos y condiciones</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="./pages/404.html"> Políticas de privacidad</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="./pages/404.html"> Trabaja con nosotros</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="colorlinks text-decoration-none" href="./pages/404.html"> Soporte</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <h4 class="text-white text-md-center titulocontact">Contácto</h4>
+                        <div class="links">
+                            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
             </section>
-            <section id="quiero">
-                <h4>Quiero una hamburguesa!</h4>
-                <form action="./pages/404.html" method="post">
-                    <input type="email" placeholder="usuario@gmail.com" required id="email" name="email">
-                    <input type="submit" value="Recibir informacion">
-                </form>
-            </section>
-            <section>
-                <h4>Contacto</h4>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-                
-            </section>
+            <hr class="achere">
+            <p class="copyright text-white m-0 text-center p-4">© Copyright 2024 Hamburguesa - Todos los derechos reservados.</p>
         </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
